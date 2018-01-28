@@ -1,0 +1,17 @@
+//
+//  iOS_Base_OC.pch
+//  iOS_Base_OC
+//
+//  Created by Jakin on 2018/1/17.
+//  Copyright © 2018年 Jakin. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "iOS_Base_OCConfig.h"
+    #import "AppDelegate.h"
+    #import "ConstKey.h"
+    #import "Tools.h"
+    #import "DefinitionKey.h"
+    #import "NetWorkConfig.h"
+#endif
